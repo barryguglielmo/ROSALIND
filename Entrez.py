@@ -3,7 +3,7 @@ from Bio import SeqIO
 
 def genbank(*genbank_ids):
     """Fetches each genbank id and creates a file ready to upload in FASTA"""
-    Entrez.email = "adelq@sas.upenn.edu"
+    Entrez.email = "barryguglielmo@gmail.com"
 
     for i, genbank_id in enumerate(genbank_ids):
         handle = Entrez.efetch(db="nucleotide", id=genbank_id, rettype="fasta")
