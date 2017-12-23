@@ -1,5 +1,4 @@
 #problem 7 biot e-100
-#Count Nucleotides
 #path
 import os
 os.chdir("C:/Users/bag019/Desktop")
